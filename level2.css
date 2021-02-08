@@ -27,6 +27,10 @@
             float: left;
         }
 
+        .imglist1{
+            width: 60px;
+            height: 60px;
+        }
         .nav {
             float: right;
         }
@@ -66,7 +70,7 @@
         .body{
             width: 1550px;
             /* height: 1500px; */
-            margin: 0 auto;
+            margin: 15px auto;
             /* border: 1px solid red; */
         }
 
@@ -139,7 +143,7 @@
         .box3flex{
             width: 800px;
             /* margin: 10px auto 10px 10px ; */
-            margin :10px;
+            margin : 20px 10px;
             /* border: 1px #333 solid; */
         }
         .flex{
@@ -177,6 +181,7 @@
             margin :15px;
         }
         .box4-ol li{
+            line-height: 1.5;
             text-indent: 2em;
         }
         .box4-ol li:nth-child(1)::before{
@@ -214,6 +219,9 @@
         tr:nth-child(6){
             background-color: rgb(204, 204, 204);
             /* color:white; */
+        }
+        .aside{
+            margin-top: 25px;
         }
         .box5 {
             width: 550px;
@@ -314,11 +322,11 @@
             margin-right: 15px;
         }
         select{
-            width: 100px;
-            height: 30px;
+            width: 90px;
+            height: 23px;
             appearance: none;
             background: url('./img/level2-2.png') no-repeat right center;
-            border-radius: 6px;
+            border-radius: 4px;
 
         }
         .box5-div7{
@@ -330,6 +338,9 @@
         }
         .box5-div8{
             margin :15px 0 20px 117px ;
+        }
+        .box5-span-checkbox{
+            margin-left: -5px;
         }
         .box5-div9{
             margin :15px 0 20px 85px ;
