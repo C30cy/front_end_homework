@@ -1,0 +1,106 @@
+.login{
+    width: 414px;
+    height: 338px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #bbffaa; */
+}
+.login1 a{
+    margin-right: 20px;
+}
+.login2 a{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+.login1 a{
+    color: rgb(2, 167, 222);
+}
+.login2 a{
+    color: rgb(85, 85, 85);
+}
+
+.firstline{
+    margin-bottom: 12px;
+}
+/* .userid{
+    width: 392px;
+    height: 18px;
+} */
+.useridinput{
+    width: 392px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+}
+.userpassword_input{
+    width: 392px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    /* margin-top: 30px; */
+}
+.box1,.box2{
+    width: 414px;
+    height: 20px;
+    margin: 6px 0;
+}
+.remember{
+    font-size: 12px;
+}
+.not_checkout{
+    margin-right: 10px;
+    color: rgb(0, 167, 222);
+}
+.not_password{
+    color: rgb(0, 167, 222);
+}
+#remember1{
+    margin-left: 10px;
+    margin-right: 25px;
+    color: #BBBBBB;
+}
+#remember2{
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+.login_box{
+    width: 184px;
+    height: 36px;
+    background-color: rgb(0, 167, 222);
+    border: 1px rgb(3, 129, 170) solid;
+    margin-right: 35px;
+    border-radius: 2px;
+}
+.register_box{
+    width: 184px;
+    height: 36px;
+    margin-left: 6px;
+    background-color: white;
+    border: 1px rgb(204, 204, 204) solid;
+    border-radius: 2px;
+}
+.box3{
+    width: 414px;
+    margin :12px auto;
+}
+.div_img1{
+    display: inline;
+    margin-right: 20px;
+}
+.div_img2{
+    display: inline;
+}
+.img1{
+    width: 21px;
+    line-height: 21px;
+    margin-right: 5px;
+}
+.img2{
+    width: 21px;
+    line-height: 21px;
+    margin-right: 5px;
+}

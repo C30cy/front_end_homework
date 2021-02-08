@@ -1,0 +1,376 @@
+        body{
+            font-size: 17px;
+        }
+        .clearfix::before,
+        .clearfix::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        /* 外部容器的样式 */
+        .top-wrapper {
+            width: 100%;
+            /* height: 70px; */
+            line-height: 65px;
+            background-color: rgb(51, 51, 51);
+            border-bottom: 2px solid rgb(116, 116, 116);
+
+        }
+
+        .head {
+            width: 1550px;
+            margin: 0 auto;
+        }
+
+        .imglist {
+            float: left;
+        }
+
+        .nav {
+            float: right;
+        }
+
+        .nav li {
+            float: left;
+            margin-right: 8px;
+        }
+
+        .nav li::before {
+            content: '●';
+            color: black;
+            font-size: 12px;
+            margin-right: 4px;
+            /* line-height: 70px; */
+        }
+
+        .nav li a {
+            text-decoration: none;
+            color: rgb(239, 244, 255);
+        }
+
+        .nav li a:hover {
+            color: rgb(141, 137, 136);
+        }
+
+        img {
+            vertical-align: bottom;
+        }
+
+        /* 中间部分 */
+        .body-wrapper {
+            width: 100%;
+            background-color: rgb(222, 222, 222);
+        }
+
+        .body{
+            width: 1550px;
+            /* height: 1500px; */
+            margin: 0 auto;
+            /* border: 1px solid red; */
+        }
+
+        .body1 {
+            width: 950px;
+            /* height: 500px; */
+            /* background-color: blue; */
+            /* border: 1px solid black; */
+            float: left;
+        }
+        .body2{
+            width: 596px;
+            /* height: 600px; */
+            /* background-color: red; */
+            float: right;
+        }
+        .box1 {
+            width: 950px;
+            height: 800px;
+            margin: 10px auto;
+            /* background-color: rgb(255, 255, 255); */
+            background-color: white;
+        }
+        b{
+            font-weight: bold;
+        }
+        h1{
+            font-size: 30px;
+            margin: 30px 15px 10px ;
+        }
+        h2{
+            font-size: 24px;
+            margin: 15px;
+        }
+        h3{
+            font-size: 18px;
+            margin: 15px ;
+        }
+        p{
+            margin: 15px 15px ;
+            text-indent: 2em;
+            white-space: pre-line;
+            line-height: 1.5;
+        }
+        .box_img{
+            margin: 15px;
+        }
+        .level2-1{
+            width: 300px;
+            height: 250px;
+        }
+        .box2{
+            width: 950px;
+            height: 710px;
+            margin: 20px auto;
+            background-color: white;
+        }
+        .box2_ul{
+            margin: 15px 15px ;
+        }
+        .box2_ul li{
+            text-indent: 1em;
+            line-height: 1.5;
+        }
+        .box3 {
+            width: 950px;
+            margin: 10px auto;
+            background-color: white;
+        }
+        .box3flex{
+            width: 800px;
+            /* margin: 10px auto 10px 10px ; */
+            margin :10px;
+            /* border: 1px #333 solid; */
+        }
+        .flex{
+            height: 160px;
+            display: flex;
+            justify-content: space-evenly;
+            /* align-items: flex-end; */
+            align-items: center;
+        }
+        .item{
+            /* display: flex; */
+            /* background-color: orange; */
+            text-align: center;
+            /* justify-content: center; */
+            border: 1px rgb(221, 221, 221) solid;
+        }
+        .item div{
+            padding: 10px 25px;
+        }
+        .item img{
+            display: block;
+            width: 100px;
+            height: 80px;
+            /* padding:  0 10px 10px 10px; */
+            margin: 0 auto;
+            margin-bottom: 17px;
+        }
+        .box4 {
+            width: 950px;
+            /* height: 700px; */
+            margin: 10px auto;
+            background-color: rgb(255, 255, 255);
+        }
+        .box4-ol{
+            margin :15px;
+        }
+        .box4-ol li{
+            text-indent: 2em;
+        }
+        .box4-ol li:nth-child(1)::before{
+            content: '1.';
+            margin-right: 5px;
+        }
+        .box4-ol li:nth-child(2)::before{
+            content: '2.';
+            margin-right: 5px;
+        }
+        .box4-ol li:nth-child(3)::before{
+            content: '3.';
+            margin-right: 5px;
+        }
+        .box4-div1{
+            margin-left: 15px;
+
+        }
+        table{
+            width: 920px;
+            height: 200px;
+            border: rgb(204, 204, 204) 1px solid;
+            border-collapse: collapse;
+            margin: 0 15px 20px;
+        }
+        td{
+            border: rgb(204, 204, 204) 1px solid;
+            vertical-align: middle;
+            padding-left: 5px;
+        }
+        tr:nth-child(1){
+            background-color: rgb(51, 51, 51);
+            color:white;
+        }
+        tr:nth-child(6){
+            background-color: rgb(204, 204, 204);
+            /* color:white; */
+        }
+        .box5 {
+            width: 550px;
+            /* height: 800px; */
+            background-color: rgb(255, 255, 255);
+            margin :10px auto;
+        }
+        .h2aside{
+            float: left;
+            width: 4px;
+            margin-right: 15px;
+            height: 50px;
+            background-color: rgb(204, 204, 204);;
+        }
+        .h2aside2{
+            float: left;
+            margin: 0 auto ;
+            line-height: 50px;
+        }
+        .box5-div1{
+            margin :0 30px;
+        }
+        .box5-div3{
+            margin :10px 64px;
+        }
+        .box5-div4{
+            margin :15px 30px;
+        }
+        .box5-text1{
+            width: 180px;
+            height: 25px;
+            font-size: 16px;
+        }
+        .box5-text{
+            display: none;
+        }
+        .box5-div1::before{
+            content: '请输入邮箱地址';
+            margin-right: 15px;
+        }
+        .box5-div2{
+            margin: 18px 0 30px 171px ;
+            color: rgb(159, 159, 160);
+        }
+        .box5-div3::before{
+            content: '请输入密码';
+            margin-right: 15px;
+        }
+        .box5-div4::before{
+            content: '请再次输入密码';
+            margin-right: 15px;
+        }
+        .box5-div6::before{
+            content: '性别';
+            margin-right: 15px;
+        }
+        .box5-div6>input {
+            display: none;
+        }
+
+        .box5-div6>label {
+            position: relative;
+            margin-right: 10px;
+        }
+
+        .box5-div6>label::before {
+            display: inline-block;
+            content: "";
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            border: 1px solid rgb(221, 221, 221);
+            margin-right: 6px;
+            vertical-align: bottom;
+        }
+        .box5-div6{
+            margin :15px 0 20px 117px ;
+        }
+        .box5-div6>input:checked+label::before {
+            background-color: rgb(61, 158, 237);
+        }
+
+        .box5-div6>input:checked+label::after {
+            width: 6px;
+            height: 6px;
+            display: inline-block;
+            content: "";
+            border-radius: 50%;
+            position: absolute;
+            left: 6px;
+            bottom: 8px;
+            background-color: white;
+
+        } 
+       
+        .box5-div7::before{
+            content: '城市';
+            margin-right: 15px;
+        }
+        select{
+            width: 100px;
+            height: 30px;
+            appearance: none;
+            background: url('./img/level2-2.png') no-repeat right center;
+            border-radius: 6px;
+
+        }
+        .box5-div7{
+            margin :15px 0 20px 117px ;
+        }
+        .box5-div8::before{
+            content: '爱好';
+            margin-right: 15px;
+        }
+        .box5-div8{
+            margin :15px 0 20px 117px ;
+        }
+        .box5-div9{
+            margin :15px 0 20px 85px ;
+        }
+        .box5-div9-text{
+            float: left;
+            margin-right: 20px;
+        }
+        .box5-div9-text1{
+            float: left;
+        }
+        textarea{
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+        }
+        .box5-div10{
+            width: 450px;
+            margin: 10px auto 30px;
+        }
+        
+        .box5-div10-submit
+        {
+            width: 450px;
+            height: 60px;
+            font-size: 25px;
+            color: white;
+            background-color: rgb(51, 85, 209);
+            border-radius: 10px;
+            /* margin: 0 auto;; */
+        } 
+        .bottom{
+            width: 100%;
+            line-height: 70px;
+            background-color: rgb(0, 0,0);
+            border-bottom: 2px solid rgb(116, 116, 116);
+        }
+        .index{
+            width: 100px;
+            margin: 0 auto;
+            color: white;
+        }
+        
+        
