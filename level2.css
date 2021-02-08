@@ -263,7 +263,7 @@
             margin-right: 15px;
         }
         .box5-div4::before{
-            content: '请再次输入密码';
+            content: '请重复输入密码';
             margin-right: 15px;
         }
         .box5-div6::before{
